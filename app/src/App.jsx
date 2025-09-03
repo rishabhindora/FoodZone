@@ -1,12 +1,14 @@
 import './App.css'
 import styled from 'styled-components'
-import { TopContainer } from './Components/TopContainer'
-import { FilterContainer } from './Components/FilterContainer'
+import {TopContainer} from './Components/TopContainer'
+import {FilterContainer} from './Components/FilterContainer'
+import {CardsSection} from './Components/CardsSection'
 function App() {
     return (
             <Container>
-                <TopContainer/>
-                <FilterContainer/>
+                <TopContainer />
+                <FilterContainer />
+                <CardsSection/>
             </Container>)
 }
 
